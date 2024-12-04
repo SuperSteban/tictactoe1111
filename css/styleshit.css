@@ -1,0 +1,64 @@
+input[type=button] {
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+}
+
+table,
+tr,
+td {
+    position: relative;
+}
+
+.trline {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background-color: blueviolet;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/*table::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100%*1.414);
+    height: calc(100%*1.414);
+    border-top: 15px solid blueviolet;
+    transform: rotate(-45deg);
+    transform-origin: right top;
+    z-index: 1;
+    pointer-events: none;
+
+
+}*/
+
+/*td:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: 50%;
+    width: 15px;
+    background-color: blueviolet;
+    z-index: 1;
+    pointer-events: none;
+}*/
+
+/*tr:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background-color: blueviolet;
+    z-index: 1;
+    pointer-events: none;
+
+}*/
